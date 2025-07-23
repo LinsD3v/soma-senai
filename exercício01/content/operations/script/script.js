@@ -33,3 +33,12 @@ function div(){
     }
 
 }
+
+function media(){
+    var Mnumero1 = parseFloat(document.getElementById("n1").value)
+    var Mnumero2 = parseFloat(document.getElementById("n2").value)
+    var Mnumero3 = parseFloat(document.getElementById("n3").value)
+    var Mnumero4 = parseFloat(document.getElementById("n4").value)
+    var Mnumero5 = parseFloat(document.getElementById("n5").value)
+    var r = document.getElementById("response")
+}
