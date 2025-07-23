@@ -41,4 +41,13 @@ function media(){
     var Mnumero4 = parseFloat(document.getElementById("n4").value)
     var Mnumero5 = parseFloat(document.getElementById("n5").value)
     var r = document.getElementById("response")
+
+    res = (Mnumero1 + Mnumero2 + Mnumero3 + Mnumero4 + Mnumero5) / 5
+    r.textContent = res
+    if (res >= 7) {
+        r.style.color = "green"
+    }
+    else {
+        r.style.color = "red"
+    }
 }
